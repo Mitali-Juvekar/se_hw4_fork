@@ -18,6 +18,8 @@ public class ExpenseTrackerModel {
   public ExpenseTrackerModel() {
     transactions = new ArrayList<Transaction>();
     matchedFilterIndices = new ArrayList<Integer>();
+    //observers list initialized
+    observers = new ArrayList<>();
   }
 
   public void addTransaction(Transaction t) {

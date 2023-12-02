@@ -1,3 +1,9 @@
+commit 73a6c53e64de00f293ba6692da58f5ff889eb16b
+Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
+Date:   Fri Dec 1 23:06:04 2023 -0500
+
+    made changes to the numberOfListeners method and containsListener method to check number of listeners and whether is is part of the list.
+
 commit 8d8a289a70c8d0db57502eb225e34d0e28079f12
 Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
 Date:   Fri Dec 1 22:55:19 2023 -0500
