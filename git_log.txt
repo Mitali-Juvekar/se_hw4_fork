@@ -1,3 +1,9 @@
+commit 8d8a289a70c8d0db57502eb225e34d0e28079f12
+Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
+Date:   Fri Dec 1 22:55:19 2023 -0500
+
+    added logic to the stateChanged method so now model updates the view not controller.
+
 commit 7a4a6fde324498044f36c75050da0dc378fdad48
 Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
 Date:   Fri Dec 1 22:48:54 2023 -0500

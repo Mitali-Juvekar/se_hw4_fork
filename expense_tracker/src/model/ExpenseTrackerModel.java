@@ -82,16 +82,14 @@ public class ExpenseTrackerModel {
 
   public int numberOfListeners() {
       // For testing, this is one of the methods.
-      //
-      //TODO
-      return 0;
+      //how many lsiteners are currently registered
+      return observers.size();
   }
 
   public boolean containsListener(ExpenseTrackerModelListener listener) {
       // For testing, this is one of the methods.
-      //
-      //TODO
-      return false;
+      //To check if the listener is registered in the observers list
+      return observers.contains(listener);
   }
 
   protected void stateChanged() {
