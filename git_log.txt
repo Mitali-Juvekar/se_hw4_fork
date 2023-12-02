@@ -1,3 +1,9 @@
+commit 3e3e5f000d66404044055c0546fe26d3f5da720a
+Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
+Date:   Fri Dec 1 23:18:01 2023 -0500
+
+    Initialized the observers list
+
 commit 73a6c53e64de00f293ba6692da58f5ff889eb16b
 Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
 Date:   Fri Dec 1 23:06:04 2023 -0500

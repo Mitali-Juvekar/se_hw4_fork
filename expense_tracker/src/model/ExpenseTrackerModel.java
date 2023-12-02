@@ -94,7 +94,7 @@ public class ExpenseTrackerModel {
       return observers.contains(listener);
   }
 
-  protected void stateChanged() {
+  public void stateChanged() {
       // For the Observable class, this is one of the methods.
       for(ExpenseTrackerModelListener observer : observers) {
         observer.update(this);

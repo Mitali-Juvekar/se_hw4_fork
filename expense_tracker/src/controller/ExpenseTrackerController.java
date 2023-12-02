@@ -47,6 +47,7 @@ public class ExpenseTrackerController {
     model.addTransaction(t);
     //controller should not directly update the view
     //view.update(model);
+    model.stateChanged();
     return true;
   }
 
