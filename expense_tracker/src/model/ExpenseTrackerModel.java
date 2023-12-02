@@ -77,7 +77,6 @@ public class ExpenseTrackerModel {
         observers.add(listener);
         return true;
       }
-      // TODO
       return false;
   }
 
@@ -97,7 +96,8 @@ public class ExpenseTrackerModel {
 
   protected void stateChanged() {
       // For the Observable class, this is one of the methods.
-      //
-      //TODO
+      for(ExpenseTrackerModelListener observer : observers) {
+        observer.update(this);
+      }
   }
 }

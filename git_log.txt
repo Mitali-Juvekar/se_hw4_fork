@@ -1,3 +1,9 @@
+commit 7a4a6fde324498044f36c75050da0dc378fdad48
+Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
+Date:   Fri Dec 1 22:48:54 2023 -0500
+
+    Created a new list and added logic to the register method to give the provided observer to the observers list.
+
 commit 152b57b0a862dacbd8f3d91d6bd73054438f71ab
 Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
 Date:   Fri Dec 1 13:55:27 2023 -0500
