@@ -1,0 +1,89 @@
+commit 383ba44bb1c356d20565fef3a765706b1e6a8d70
+Author: Mitali Prakash Juvekar <mitalijuvekar@1x-nat-vl931-172-30-144-10.wireless.umass.edu>
+Date:   Sat Dec 2 16:47:21 2023 -0500
+
+    made stateChanged method public and added logic so model uodates view.
+
+commit 3e3e5f000d66404044055c0546fe26d3f5da720a
+Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
+Date:   Fri Dec 1 23:18:01 2023 -0500
+
+    Initialized the observers list
+
+commit 73a6c53e64de00f293ba6692da58f5ff889eb16b
+Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
+Date:   Fri Dec 1 23:06:04 2023 -0500
+
+    made changes to the numberOfListeners method and containsListener method to check number of listeners and whether is is part of the list.
+
+commit 8d8a289a70c8d0db57502eb225e34d0e28079f12
+Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
+Date:   Fri Dec 1 22:55:19 2023 -0500
+
+    added logic to the stateChanged method so now model updates the view not controller.
+
+commit 7a4a6fde324498044f36c75050da0dc378fdad48
+Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
+Date:   Fri Dec 1 22:48:54 2023 -0500
+
+    Created a new list and added logic to the register method to give the provided observer to the observers list.
+
+commit 152b57b0a862dacbd8f3d91d6bd73054438f71ab
+Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
+Date:   Fri Dec 1 13:55:27 2023 -0500
+
+    Same step as previous performed in undoTransaction function of controller.
+
+commit 0178070b85919ce16042364ed579e79c73fdce79
+Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
+Date:   Fri Dec 1 13:52:51 2023 -0500
+
+    git_log.txt updated.
+
+commit ed690bf7d7f0a946d765ae76f7310314339b3326
+Author: Mitali Prakash Juvekar <mitalijuvekar@Mitalis-MacBook-Air.local>
+Date:   Fri Dec 1 13:48:43 2023 -0500
+
+    Commented out a line of code in Contoller so it doesnt directly update the view.
+
+commit a37a4c8d84d27dfa856ff06ed1f587812021a4e3
+Author: Heather Conboy <hconboy@cs.umass.edu>
+Date:   Thu Nov 23 09:07:51 2023 -0500
+
+    Update TestExample.java
+    
+    Needed to fix one more typo in the testRegisterSucceeds test case.
+
+commit 27cde1b9350e3211902cce78ba5030dfa077b842
+Author: Heather Conboy <hconboy@cs.umass.edu>
+Date:   Thu Nov 23 08:59:21 2023 -0500
+
+    Update TestExample.java
+    
+    Fixed typos in the testRegisterSucceeeds test case.
+
+commit 026b11d92c5b8c427244035c588ab2b88afaf6f6
+Author: Heather Conboy <hconboy@Heathers-MBP.hsd1.ma.comcast.net>
+Date:   Wed Nov 22 09:53:26 2023 -0500
+
+    For the MVC architecture pattern, the Observer design pattern will now be used to update the View after the Model is manipulated by the Controller. Started to modify the Model to be the Observable. Added the ExpenseTrackerModelListener interface to be the Observer interface. Modified the ExpenseTrackerView class to be a concrete Observer class. Started to modify the Controller class to apply this pattern. For test driven development, modified the test suite to add the register test cases. One of them is currently failing.
+
+commit 842d5a8ab840c6f5eb3d63a5ab1cb6a2d27b9560
+Author: Heather Conboy <hconboy@Heathers-MBP.hsd1.ma.comcast.net>
+Date:   Wed Nov 22 09:05:16 2023 -0500
+
+    Modified the Model to store the matched filter indices. Modified the Controller to use these indices.
+
+commit 32081791f9171baef8004e30d58f79780494f108
+Author: Heather Conboy <hconboy@Heathers-MBP.hsd1.ma.comcast.net>
+Date:   Tue Nov 21 20:41:18 2023 -0500
+
+    Copied over the hw3-solution to the hw4_baseline.
+
+commit c66f84f702f27077ec6d22a1547c99f2874ef4a1
+Author: Heather Conboy <hconboy@cs.umass.edu>
+Date:   Tue Nov 21 16:36:46 2023 -0500
+
+    Create README.md
+    
+    Copied over the hw3_solution. For the View, partially implemented the Composite design pattern.
