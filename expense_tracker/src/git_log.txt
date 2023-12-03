@@ -1,3 +1,9 @@
+commit 45ad83c16091e446e53064ee23bd3e77b969fc05
+Author: Mitali Prakash Juvekar <mitalijuvekar@1x-nat-vl931-172-30-144-10.wireless.umass.edu>
+Date:   Sat Dec 2 16:48:20 2023 -0500
+
+    Updated git log to complete observer design pattern.
+
 commit 383ba44bb1c356d20565fef3a765706b1e6a8d70
 Author: Mitali Prakash Juvekar <mitalijuvekar@1x-nat-vl931-172-30-144-10.wireless.umass.edu>
 Date:   Sat Dec 2 16:47:21 2023 -0500

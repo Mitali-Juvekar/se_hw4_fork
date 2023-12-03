@@ -76,7 +76,8 @@ public class ExpenseTrackerApp {
       if (undoStatus == false) {
         JOptionPane.showMessageDialog(view, "Please select a transaction to undo");
         view.toFront();
-      }
+      } else {
+        controller.applyFilter(); }
     });
 
   }

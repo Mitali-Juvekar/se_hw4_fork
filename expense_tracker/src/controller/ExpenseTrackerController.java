@@ -78,6 +78,7 @@ public class ExpenseTrackerController {
     if (rowIndex >= 0 && rowIndex < model.getTransactions().size()) {
       Transaction removedTransaction = model.getTransactions().get(rowIndex);
       model.removeTransaction(removedTransaction);
+      model.stateChanged();
       //controller should not directly update the view
       //view.update(model);
       // The undo was allowed.
